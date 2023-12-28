@@ -41,6 +41,39 @@
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "44b1e7ed-0a82-3a5d-b57a-5cdbf4e7ecbf",
+            "id" : "e5d05d50-d618-3068-a89c-ede93b8af804",
+            "instanceIdentifier" : "c31519b8-0cfd-3858-28e0-6e8a82562659",
+            "name" : "ExecuteSQL",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "44b1e7ed-0a82-3a5d-b57a-5cdbf4e7ecbf",
+          "identifier" : "7afd2d6b-31a4-37af-8ab9-763e0697b2a2",
+          "instanceIdentifier" : "b1bccaea-018c-1000-3ca2-3b71a2948e66",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "44b1e7ed-0a82-3a5d-b57a-5cdbf4e7ecbf",
+            "id" : "c6f9761d-626b-3c91-9220-335d61886090",
+            "instanceIdentifier" : "b003020a-018c-1000-6e46-a2d2d491b186",
+            "name" : "AttributeRollingWindow",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
         } ],
         "controllerServices" : [ ],
         "defaultBackPressureDataSizeThreshold" : "1 GB",
@@ -80,8 +113,8 @@
           "name" : "AttributeRollingWindow",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1124.5235718615254,
-            "y" : 404.28125092241555
+            "x" : 104.0,
+            "y" : 688.0
           },
           "properties" : { },
           "propertyDescriptors" : {
