@@ -255,6 +255,7 @@
             "compression-format" : "NONE",
             "esql-output-batch-size" : "0",
             "esql-fetch-size" : "0",
+            "SQL select query" : "select * from table",
             "dbf-normalize" : "false"
           },
           "propertyDescriptors" : {
